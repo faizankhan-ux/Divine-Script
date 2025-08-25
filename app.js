@@ -41,7 +41,9 @@ mode.addEventListener("click", () => {
 })
 
 // Arabic Version = "http://api.alquran.cloud/v1/surah/number/quran-uthmani"
-const BaseURL = "http://api.alquran.cloud/v1/surah/"
+// const BaseURL = "http://api.alquran.cloud/v1/surah/"
+const BaseURL = "https://api.alquran.cloud/v1/surah/"
+
 
 async function GetSurah(surahNo, edition) {
 
@@ -82,5 +84,6 @@ async function GetSurah(surahNo, edition) {
           }
      }
 }
+
 
 
